@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX</title>
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    
+
+</head>
+<body>
+    <header class="heading">
+         <h1>WELCOME TO SPACE TOURISM</h1>
+    </header>
+  <section class="wrapper">
+    <form action="#">
+        <div class="user-info">
+            <div class="input">
+                <span id="details">NAME:</span>
+                <input type="text" placeholder="enter your name" required>
+            </div>
+            <div class="input">
+                <span id="details">AGE:</span>
+                <input type="number" placeholder="0" required>
+            </div>
+            <div class="input">
+                <span id="details">E-MAIL ID:</span>
+                <input type="email" placeholder="@gmail.com" required>
+            </div>
+            <div class="input">
+                <span id="details">PREFERED PLANET:</span>
+                <select id="planets" required>
+                    <option value="">Choose One</option>
+                    <option value="Only_Space">Only Space</option>
+                    <option value="Moon">Moon</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Mercury">Mercury</option>
+                    <option value="Titan">Titan</option>          
+                </select>
+            </div>
+            <div class="input">
+                <span id="details">GENDER:</span>
+                <select id="gender" required>
+                    <option value=""></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="not-prefer">Prefer Not To Say</option>       
+                </select>
+            </div>
+            <div class="input">
+                <span id="details">COUNTRY:</span>
+                <input type="text" placeholder="Ex:India" required>
+            </div>
+            <div class="input">
+                <span id="details">Tell Your Valuable Reason:</span>
+                <input type="text" id="textbox" placeholder="Min 50 letters" minlength="50" required>
+            </div>
+      </div>
+            <div class="btn">
+               <input type="submit" value="SUBMIT">
+            </div>
+    </form>   
+    </section>
+</body>
+</html>
